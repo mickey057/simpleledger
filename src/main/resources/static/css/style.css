@@ -1,0 +1,24 @@
+body {
+    background: #f5f7fb;
+}
+
+.navbar {
+    min-height: 64px;
+}
+
+.card {
+    border-radius: 14px;
+}
+
+.stat-card {
+    min-height: 130px;
+}
+
+.table th {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.badge {
+    letter-spacing: 0.03em;
+}
