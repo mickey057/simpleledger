@@ -1,9 +1,14 @@
 body {
     background: #f5f7fb;
+    color: #212529;
 }
 
 .navbar {
     min-height: 64px;
+}
+
+.navbar-brand {
+    letter-spacing: -0.03em;
 }
 
 .card {
@@ -12,6 +17,12 @@ body {
 
 .stat-card {
     min-height: 130px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08) !important;
 }
 
 .table th {
@@ -21,4 +32,17 @@ body {
 
 .badge {
     letter-spacing: 0.03em;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.form-control,
+.form-select {
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 40px;
 }
